@@ -1,0 +1,104 @@
+*{box-sizing:border-box;}
+body {
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  > div {
+    background: url("../images/bg.jpg") no-repeat center center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    background-position: center center;
+    .header {
+      height: 30px;
+      width: 100%;
+      line-height: 18px;
+      color: #00ffff;
+      text-align: center;
+      background: url(../images/top_bg.png) bottom center no-repeat;
+      background-size: cover;
+    }
+    .main-container {
+      display: flex;
+      top:30px;
+      position: absolute;
+      bottom:0;
+      width:100%;
+      overflow: hidden;
+      padding:0.1vh 0 17vh;
+      .main-left {
+        flex-grow: 1;
+        // margin: 0 1vw;
+      }
+      .main-item{
+        flex: 1;
+        flex-direction: column;
+        display: flex;
+      }
+      .main-center {
+        flex-grow: 1.3;
+      }
+      .main-right {
+        flex-grow: 1;
+        // margin: 0 1vw;
+      }
+      .flex-item-1{
+        height:31.33vh;
+      }
+      .flex-item-lg{
+        height: 94vh;
+      }
+      .border-container {
+        position: relative;
+        // margin-top: 15px;
+        padding: 4px 4px 1px;
+        border: 1px solid #54dcf2;
+        .name-title {
+          font-size: 0.5rem;
+          color: #00ffff;
+          // padding:4px;
+        }
+        .chart-contianer{
+          height:100%;
+        }
+        span.top-left {
+            top: -3px;
+            left: -3px;
+            border-top: 2px solid #54dcf2;
+            border-left: 2px solid #54dcf2;
+        }
+        span.border-span {
+            display: block;
+            position: absolute;
+            width: 35px;
+            height: 35px;
+        }
+        span.top-right {
+            top: -3px;
+            right: -3px;
+            border-top: 2px solid #54dcf2;
+            border-right: 2px solid #54dcf2;
+        }
+        span.bottom-left {
+            bottom: -3px;
+            left: -3px;
+            border-bottom: 2px solid #54dcf2;
+            border-left: 2px solid #54dcf2;
+        }
+        span.bottom-right {
+            bottom: -3px;
+            right: -3px;
+            border-bottom: 2px solid #54dcf2;
+            border-right: 2px solid #54dcf2;
+        }
+      }
+    }
+  }
+}

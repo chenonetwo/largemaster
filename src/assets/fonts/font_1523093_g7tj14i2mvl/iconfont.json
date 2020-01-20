@@ -1,0 +1,65 @@
+{
+  "id": "1523093",
+  "name": "大屏Max",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "875789",
+      "name": "体质",
+      "font_class": "tizhi",
+      "unicode": "e6eb",
+      "unicode_decimal": 59115
+    },
+    {
+      "icon_id": "915524",
+      "name": "会员",
+      "font_class": "huiyuan-copy",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "1461621",
+      "name": "开始",
+      "font_class": "iconfontkaishi",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "1544098",
+      "name": "开始",
+      "font_class": "kaishi",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "3002371",
+      "name": "听音乐",
+      "font_class": "tingyinle",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "4764483",
+      "name": "会员",
+      "font_class": "huiyuan",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "7179539",
+      "name": "刷新",
+      "font_class": "shuaxin1",
+      "unicode": "e68e",
+      "unicode_decimal": 59022
+    },
+    {
+      "icon_id": "11041493",
+      "name": "结果页面图标_症状证型",
+      "font_class": "jieguoyemiantubiao_zhengzhuangzhengxing",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    }
+  ]
+}
